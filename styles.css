@@ -1,0 +1,182 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background: #f4f4f4;
+}
+
+/* Container for central alignment */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header styles */
+header {
+  background: #0066cc;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffeb3b;
+}
+
+/* Main section styles */
+main {
+  padding: 80px 20px 20px; /* Top padding to avoid overlap with fixed header */
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #0066cc;
+  padding-bottom: 10px;
+}
+
+/* Unique section styles */
+section.home {
+  background: #e3f2fd;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+section.about {
+  background: #fce4ec;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+section.education {
+  background: #e3f2fd;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+section.technical-skills {
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.portfolio {
+  background: #e3f2fd;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+section.contact {
+  background: #fce4ec;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Internship Experience section */
+.internship {
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.internship strong {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Certifications section */
+.certifications {
+  background: #e3f2fd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certifications ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.certifications ul li {
+  margin-bottom: 10px;
+}
+/* Knowledge Sharing section */
+.knowledge-sharing {
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline section */
+.timeline {
+  background: #e3f2fd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.timeline ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background: #0066cc;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
